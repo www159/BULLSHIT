@@ -15,14 +15,14 @@ jobs:
         uses: actions/checkout@master
 
       - name: install
-      run: yarn
+        run: yarn
 
       - name: Generate
-      run: |
-        git config --local user.email "2107795244@qq.com"
-        git config --local user.name "www159"
-        git remote set-url origin https://${{ github.actor }}:${{ seecrets.GITHUB }}@github.com/${{ github.respository }}
-        git pull --rebase
-        node index.js
-        git commit -am "new bullshit comes"
-        git push
+        run: |
+          git config --local user.email "2107795244@qq.com"
+          git config --local user.name "www159"
+          git remote set-url origin https://${{ github.actor }}:${{ seecrets.GITHUB }}@github.com/${{ github.respository }}
+          git pull --rebase
+          node index.js
+          git commit -am "new bullshit comes"
+          git push
