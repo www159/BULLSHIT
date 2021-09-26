@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: install
-      run: npm install
+      run: yarn
 
       - name: Generate
       run: |
