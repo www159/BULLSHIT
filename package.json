@@ -1,0 +1,12 @@
+{
+  "name": "bullshit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:www159/BULLSHIT.git",
+  "author": "www159 <2107795244@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@lwys-pkg-releaser/node-bullshit-generator": "^1.2.0",
+    "dayjs": "^1.10.7"
+  }
+}
